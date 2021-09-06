@@ -1,0 +1,79 @@
+<!-- Slytherin House Page -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+
+		h2{
+       		    text-align: center;
+       		    font-family: serif;
+	            text-shadow: 1.5px 1.5px skyblue;
+        	    color: green;
+		}
+
+		.inner{
+        		text-align: justify;
+        		background-color: green;
+        		font-family: serif;
+			color: white;
+        		padding: 30px;
+        		margin: 9px;
+        		border-radius: 10px;
+        		border: 3px solid rgb(10,0,50);
+		}
+      
+	</style>
+	<link rel="stylesheet" href='style.css'>
+	<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+	<title>Hogwarts School of Witchcraft and Wizardry</title>
+</head>
+<body>
+	<h1>Hogwarts School of Witchcraft and Wizardry</h1> 
+	<ul id="hor">                
+		<li><a href="home.htm">Home</a></li>     
+	        <li><a href="about.htm">About</a></li>     
+	        <li class="dropdown">
+			<a href="javascript:void(0)">Faculty</a>
+			<div class="dropdown-content">
+				<a href="rosa.htm">Rosa</a>
+				<a href="olly.htm">Olly</a>
+			</div>
+		</li>  
+	        <li class="dropdown">
+			<a href="javascript:void(0)">Students</a>
+			<div class="dropdown-content">
+				<a href="tux.htm">Tux</a>
+				<a href="keshav.htm">Keshav</a>
+			</div>
+		</li>  
+	        <li class="dropdown active">
+			<a href="javascript:void(0)">Houses</a>
+			<div class="dropdown-content">
+				<a href="gryffindor.htm">Gryffindor</a>
+				<a href="slytherin.htm">Slytherin</a>
+				<a href="ravenclaw.htm">Ravenclaw</a>
+				<a href="hufflepuff.htm">Hufflepuff</a>
+			</div>
+		</li>         
+	       <!--<li><a href="results.htm">Results</a></li> -->
+	</ul>
+        <ul id="nav">  
+                <li><a href="">Current News</a></li>       
+                <li><a href="">Rules</a></li>     
+	        <li><a href="">Photo Gallery</a></li>               
+		<li id="date" onload='this.innerHTML=date();'</li> <!-- Refresh Icon here -->     
+	</ul>
+	<br>
+
+<div class ="content">
+	<h2>Slytherin House</h2>
+	<img src="./pictures/slytherin.gif" alt="slytherin house crest" class="house">
+	<div class="inner">
+		<p>Slytherin house was found by Salazar Slytherin. The house's colors are green and silver. The emblematic animal is serpent. Typical traits of a slytherin include resourcefulness, cunning, ambition, determination, self-preservation and cleverness. Salazar's most prized possessions include a locket.</p>
+		<p>Slytherins tend to be ambitious, shrewd, cunning, strong leaders and acheivement-oriented. They also have high developed senses of self preservation. They tend to hesitate before acting, so as to weigh all possible outcomes before deciding exactly what should be done. Salazar slytherin wanted a strict process of admission in the school - only to allow the pure bloods. He called muggle-borns mudbloods. Some of our school's slytherins include Zippo and Zimbo.
+	</div>
+</div>
+</body>
+</html>
+

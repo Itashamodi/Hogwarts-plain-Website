@@ -1,0 +1,81 @@
+<!-- The About Page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+
+		h2{
+       		    text-align: center;
+       		    font-family: serif;
+	            text-shadow: 1.5px 1.5px gold;
+        	    color: red;
+		}
+
+		.inner{
+        		text-align: justify;
+        		background-color: rgba(255,215,0, 0.5);
+        		font-family: serif;
+        		padding: 30px;
+        		margin: 9px;
+        		border-radius: 10px;
+        		border: 3px solid rgb(10,0,50);
+		}
+      
+	</style>
+	<link rel="stylesheet" href='style.css'>
+	<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+	<title>Hogwarts School of Witchcraft and Wizardry</title>
+</head>
+<body>
+	<h1>Hogwarts School of Witchcraft and Wizardry</h1> 
+	<ul id="hor">                
+		<li><a href="home.htm">Home</a></li>     
+	        <li class="active"><a href="about.htm">About</a></li>     
+	        <li class="dropdown">
+			<a href="javascript:void(0)">Faculty</a>
+			<div class="dropdown-content">
+				<a href="rosa.htm">Rosa</a>
+				<a href="olly.htm">Olly</a>
+			</div>
+		</li>  
+	        <li class="dropdown">
+			<a href="javascript:void(0)">Students</a>
+			<div class="dropdown-content">
+				<a href="tux.htm">Tux</a>
+				<a href="keshav.htm">Keshav</a>
+			</div>
+		</li>  
+	        <li class="dropdown">
+			<a href="javascript:void(0)">Houses</a>
+			<div class="dropdown-content">
+				<a href="gryffindor.htm">Gryffindor</a>
+				<a href="slytherin.htm">Slytherin</a>
+				<a href="ravenclaw.htm">Ravenclaw</a>
+				<a href="hufflepuff.htm">Hufflepuff</a>
+			</div>
+		</li>         
+	        <!--<li><a href="results.htm">Results</a></li>--> 
+	</ul>
+        <ul id="nav">  
+                <li><a href="">Current News</a></li>       
+                <li><a href="">Rules</a></li>     
+	        <li><a href="">Photo Gallery</a></li>               
+		<li id="date" onload="this.innerHTML=date();"</li> <!-- Refresh Icon here -->     
+	</ul>
+	<br>
+	<div class = "content">
+		<h2><i><b>About Hogwarts...</b></i></h2>
+		
+		<div class="inner">
+		<!--	<img src="./pictures/keshav.gif" style="float: right; margin: 30px 40px 90px 40px;" alt="keshav's image" height="230px"> -->
+			<p>Hogwarts is an ancient school. The castle is located in the mountains near a loch. The precise location of the school can never be uncovered because it was rendered Unplottable. To Muggles, the school looks like an old abandoned castle. Similarly, most wizarding schools locations are protected in order to prevent their ways of teaching being revealed, as well as protect the students and schools themselves from any harm.
+
+Established around the 10th century, Hogwarts is considered to be one of the finest magical institutions in the wizarding world, though other notable schools included Beauxbatons Academy of Magic and the Durmstrang Institute. Children with magical abilities are enrolled at birth, and acceptance is confirmed by owl post at age eleven. However, if the child in question is a Muggle-born, a professor from the school would come and inform the child's parents.
+
+The school's motto is Draco Dormiens Nunquam Titillandus, which, translated from Latin, means "Never tickle a sleeping dragon".  </p>
+		</div>
+	</div>
+</body>
+</html>

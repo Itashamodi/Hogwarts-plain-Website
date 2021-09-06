@@ -1,0 +1,78 @@
+<!-- Gryffindor Page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+
+		h2{
+       		    text-align: center;
+       		    font-family: serif;
+	            text-shadow: 1.5px 1.5px gold;
+        	    color: red;
+		}
+
+		.inner{
+        		text-align: justify;
+        		background-color: orange;
+        		font-family: serif;
+        		padding: 30px;
+        		margin: 9px;
+        		border-radius: 10px;
+        		border: 3px solid rgb(10,0,50);
+		}
+      
+	</style>
+	<link rel="stylesheet" href='style.css'>
+	<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+	<title>Hogwarts School of Witchcraft and Wizardry</title>
+</head>
+<body>
+	<h1>Hogwarts School of Witchcraft and Wizardry</h1> 
+	<ul id="hor">                
+		<li><a href="home.htm">Home</a></li>     
+	        <li><a href="about.htm">About</a></li>     
+	        <li class="dropdown">
+			<a href="javascript:void(0)">Faculty</a>
+			<div class="dropdown-content">
+				<a href="rosa.htm">Rosa</a>
+				<a href="olly.htm">Olly</a>
+			</div>
+		</li>  
+	        <li class="dropdown">
+			<a href="javascript:void(0)">Students</a>
+			<div class="dropdown-content">
+				<a href="tux.htm">Tux</a>
+				<a href="keshav.htm">Keshav</a>
+			</div>
+		</li>  
+	        <li class="dropdown active">
+			<a href="javascript:void(0)">Houses</a>
+			<div class="dropdown-content">
+				<a href="gryffindor.htm">Gryffindor</a>
+				<a href="slytherin.htm">Slytherin</a>
+				<a href="ravenclaw.htm">Ravenclaw</a>
+				<a href="hufflepuff.htm">Hufflepuff</a>
+			</div>
+		</li>         
+	       <!--- <li><a href="results.htm">Results</a></li>--> 
+	</ul>
+        <ul id="nav">  
+                <li><a href="">Current News</a></li>       
+                <li><a href="">Rules</a></li>     
+	        <li><a href="">Photo Gallery</a></li>               
+		<li id="date" onload="this.innerHTML=date();" </li> <!-- Refresh Icon here -->     
+	</ul>
+	<br>
+
+<div class="content">
+	<h2>Gryffindor House</h2>
+	<div style="margin: 0 auto">
+	<img src="./pictures/gryffindor.gif" alt="gryffindor-crest" class="house"></div>
+	<div class="inner"><p>Gryffindors are known for their bravery. The House is named after Godric Gryffindor. Some of his most prized possessions include a sword- commomly called the Gryffindor sword. The sword is silvery with rubies on the handle. It is goblin made and has the power to cut even the most powerful of curses. The house colors are red and gold. Typical traits of a gryffindor incluse bravery, nerve, chivalry, courage and daring nature. The emblematic animal is a lion. </p>
+	<p>Gryffindors might be short tempered. Their typical rivals are those from Slytherin house. They are self-righteous and arrogant, with a certain disregard for rules. Some typical gryffindors from our school include Keshavlal and Itasha.</p>
+	</div>
+</div>
+</body>
+</html>
