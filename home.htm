@@ -1,0 +1,88 @@
+<!-- Hogwarts Home-Page -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+
+		h2{
+       		    text-align: center;
+       		    font-family: serif;
+	            text-shadow: 1.5px 1.5px skyblue;
+        	    color: darkblue;
+		}
+
+		.inner{
+        		text-align: justify;
+        		background-color: lavender;
+        		font-family: serif;
+        		padding: 30px;
+        		margin: 9px;
+        		border-radius: 10px;
+        		border: 3px solid rgb(10,0,50);
+		}
+      
+	</style>
+	<link rel="stylesheet" href='style.css'>
+	<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<title>Hogwarts School of Witchcraft and Wizardry</title>
+</head>
+<body>
+	<h1>Hogwarts School of Witchcraft and Wizardry</h1> 
+	<ul id="hor">                
+		<li class="active"><a href="home.htm">Home</a></li>     
+	        <li><a href="about.htm">About</a></li>     
+	        <li class="dropdown">
+			<a href="javascript:void(0)">Faculty</a>
+			<div class="dropdown-content">
+				<a href="rosa.htm">Rosa</a>
+				<a href="olly.htm">Olly</a>
+			</div>
+		</li>  
+	        <li class="dropdown">
+			<a href="javascript:void(0)">Students</a>
+			<div class="dropdown-content">
+				<a href="tux.htm">Tux</a>
+				<a href="keshav.htm">Keshav</a>
+			</div>
+		</li>  
+	        <li class="dropdown">
+			<a href="javascript:void(0)">Houses</a>
+			<div class="dropdown-content">
+				<a href="gryffindor.htm">Gryffindor</a>
+				<a href="slytherin.htm">Slytherin</a>
+				<a href="ravenclaw.htm">Ravenclaw</a>
+				<a href="hufflepuff.htm">Hufflepuff</a>
+			</div>
+		</li>         
+	       <!---<li><a href="results.htm">Results</a></li> -->
+	</ul>
+        <ul id="nav">  
+                <li><a href="">Current News</a></li>       
+                <li><a href="">Rules</a></li>     
+	        <li><a href="">Photo Gallery</a></li>               
+		<li id="date" onload='this.innerHTML=date();'</li> <!-- Refresh Icon here -->     
+	</ul>
+	<br>
+
+	<div class="content">
+		<h2>Welcome to Hogwarts School of Witchcraft and Wizardry</h2><hr><br>
+		<img src = "./pictures/castle.jpg" style="float:right; margin: 50px;" alt="hogwarts" width="300" height="220">
+	
+	<div class="inner"><p>Here at Hogwarts, we strive to provide the best magical education in the Jungle. Anyone belonging to Kingdom <i>Animalia</i> is welcome here.</p>
+		<p>Hogwarts has House system. This means each student is sorted in a house at the time of their admission. We currently have four Houses - Gryffindor, Slytherin, Ravenclaw and Hufflepuff. Each house has succeeded in providing the world amazing alumini. Each house has their own general characteristics, and a student is sorted in a house that matches the student's character better. As an example, Gryffindors are known for their bravery while Ravenclaws for their intelligence. Slytherins are clever and Hufflepuffs are strong believers of hardwork.</p>
+		<p>To know more about a house, visit the house under the houses tab from the main menu</p>
+		<p>To find out your house, take the sorting quiz. The link to the sorting quiz is given <a href="">here</a></p>
+		<p>If you are a student, just remember: <i><b><q style="color: purple">Help is always given at Hogwarts to those who ask for it</q></b></i>
+	</div></div>
+</body>
+</html>

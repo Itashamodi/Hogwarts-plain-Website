@@ -1,0 +1,78 @@
+<!-- Hufflepuff House Page -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<style>
+
+		h2{
+       		    text-align: center;
+       		    font-family: serif;
+	            text-shadow: 1.5px 1.5px black;
+        	    color: gold;
+		}
+
+		.inner{
+        		text-align: justify;
+        		background-color: yellow;
+        		font-family: serif;
+        		padding: 30px;
+        		margin: 9px;
+        		border-radius: 10px;
+        		border: 3px solid rgb(10,0,50);
+		}
+      
+	</style>
+	<link rel="stylesheet" href='style.css'>
+	<link href='https://fonts.googleapis.com/css?family=Alegreya SC' rel='stylesheet'>
+	<title>Hogwarts School of Witchcraft and Wizardry</title>
+</head>
+<body>
+	<h1>Hogwarts School of Witchcraft and Wizardry</h1> 
+	<ul id="hor">                
+		<li><a href="home.htm">Home</a></li>     
+	        <li><a href="about.htm">About</a></li>     
+	        <li class="dropdown">
+			<a href="javascript:void(0)">Faculty</a>
+			<div class="dropdown-content">
+				<a href="rosa.htm">Rosa</a>
+				<a href="olly.htm">Olly</a>
+			</div>
+		</li>  
+	        <li class="dropdown">
+			<a href="javascript:void(0)">Students</a>
+			<div class="dropdown-content">
+				<a href="tux.htm">Tux</a>
+				<a href="keshav.htm">Keshav</a>
+			</div>
+		</li>  
+	        <li class="dropdown active">
+			<a href="javascript:void(0)">Houses</a>
+			<div class="dropdown-content">
+				<a href="gryffindor.htm">Gryffindor</a>
+				<a href="sytherin.htm">Slytherin</a>
+				<a href="ravenclaw.htm">Ravenclaw</a>
+				<a href="hufflepuff.htm">Hufflepuff</a>
+			</div>
+		</li>         
+	        <!--<li><a href="results.htm">Results</a></li>--> 
+	</ul>
+        <ul id="nav">  
+                <li><a href="">Current News</a></li>       
+                <li><a href="">Rules</a></li>     
+	        <li><a href="">Photo Gallery</a></li>               
+		<li id="date" onload='this.innerHTML=date();'</li> <!-- Refresh Icon here -->     
+	</ul>
+	<br>
+
+<div class ="content">
+	<h2>HufflePuff House</h2>
+	<img src="./pictures/huffle.gif" alt="Hufflepuff house crest" class="house">
+	<div class="inner">
+		<p>Hufflepuff house was found by Helga Hufflepuff. The house's colors are yellow and black. The emblematic animal is a badger. Typical traits of a Hufflepuff include dedication, hardwork, fairplay, patience, kindness, tolerance and loyalty. Helga's most prized possessions include a small golden cup.</p>
+		<p>Hufflepuff is the most inclusive of all the houses: valuing hardwork, dedication, patience, loyalty and fair play rather than a particular aptitute in its members. Hufflepuffs are generally modest about their accomplishments and are cheerful and friendly.</p>
+		<p>However it should never be understood that Hufflepuffs are dumb and duffers. The famous Mathematician <em>Chota Kujju</em> was from Hufflepuff. Olly is also from Hufflepuff</p>
+	</div>
+</div>
+</body>
+</html>
